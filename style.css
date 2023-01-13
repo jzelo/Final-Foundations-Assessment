@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: darkgrey;
+}
+/* Wanted to make the nav bar something that would look good and go along with how the books looked */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #555;
+    font-size: x-large;
+    height: 80px;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li {
+    list-style: none;
+
+}
+/* Trying to make it blend in with the rest of the bar */
+.navbar-links li a {
+    text-decoration: none;
+    color: #555;
+    padding: 1rem;
+    display: block;
+}
+/* giving an animation when it is hovering over the spot where you can click on it */
+.navbar-links li:hover{
+    background-color: lightgray;
+}
+
+#search-results{
+    size: 5rem;
+    position: absolute;
+    border-top: 8rem;
+}
+
+.search-query{
+    border-top: 8rem;
+}
+/* editing the text on the about page to show that i know how to edit the text (im not good with design) */
+.lipsom {
+    color: blue;
+    font-size: x-large;
+    padding: 3rem;
+    align-self: center;
+    margin: auto;
+    width: 50%;
+}
+.lorem {
+    padding: 1rem;
+    color:aqua;
+    align-self: auto;
+    margin:auto;
+    width: 50%;
+}

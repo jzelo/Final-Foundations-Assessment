@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bookshelf</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="name">Bookshelf</div>
+                
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="bookHead">Books</h1>
+            <div class="bookshelf">Bookshelf</div>
+
+                <main>
+                    <form class="search-form">
+                      <input type="text" class="search-query" placeholder="Search books">
+                      <button type="submit">Search</button>
+                    </form>
+                    <div id="search-results"></div>
+                    <div class="buttons">
+                        <div class="sorting"></div>
+                        <button class="titleB">Sort by Title</button>
+                        <button class="authorB">Sort by Author</button>
+                        <button class="subjectB">Sort by subject</button>
+                        <button class="add">Add Book To List</button>
+                    </div>
+                    <form class="addBookForm">
+                        <label class="title">Title:</label>
+                        <input type="text" id="title" placeholder="Enter book title">
+                        <label class="author">Author:</label>
+                        <input type="text" id="author" placeholder="Enter book author">
+                        <label class="language">Language:</label>
+                        <input type="text" class="language" placeholder="Enter book language">
+                        <label class="subject">Subject:</label>
+                        <input type="text" id="subject" placeholder="Enter book subject">
+                        <button type="submit">Add Book</button>
+                      </form>
+                    <div id="bookshelf"></div>
+
+                  </main>
+        <script src="index.js"></script>
+        <script src="book-data.js" class="book-info"></script>
+    </body> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" class="style">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="name">Bookshelf</div>
+            
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>My Bookshelf</h1>
+
+
+
+    <form id="add-book-form">
+      <label for="title">Title:</label>
+      <input type="text" id="title"><br>
+      <label for="author">Author:</label>
+      <input type="text" id="author"><br>
+      <label for="subjects">Subjects:</label>
+      <input type="text" id="subject"><br>
+      <label for="language">Language:</label>
+      <input type="text" id="language"><br>
+      <button type="button" id="submitBtn">Add Book</button>
+    </form>
+
+    <form id="search-query">
+        <label for="title">Search:</label>
+        <input type="text" id="searchInput" data-search><br>
+        <button id="search-book">Search Book</button>
+        <div id="search-results"></div>
+    </form>
+        <div id="booksContainer"></div>
+
+
+    <div id="bookshelf"></div>
+
+    <wrapper class="wrapper"></wrapper>
+    <div class="addBooks"></div>
+
+    <script src="index.js"></script>
+    <script scr="book-data.js"></script>
+</body>
+</html>
